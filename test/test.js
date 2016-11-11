@@ -365,6 +365,15 @@ var customization = [
     }, {
         src: '[https://github.com/sunjingyun|sUnjingyun] 在 [https://bitbucket.org/sunjingyun/demo-of-mocha/|sunjingyun/demo-of-mocha] 分支 [https://github.com/a/master|master] 上提交了代码, [lesscaht.com|lesschat] 和 lesschat.com 和 https://lesschat.com 和 [http://lesschat.com] http://lesschat.com [/drive/123456|开发] [http://experience.lesschat.local:8100/messages/groups|groups] [https://room.co/#/lesschat-1582398af7a7|点击开始] [123](http://123.com) http://lesschat.local:8100/shared/18eccb8104674f26bd8ffa75c4f31f61',
         dest: '<a href="https://github.com/sunjingyun" target="_blank">sUnjingyun</a> 在 <a href="https://bitbucket.org/sunjingyun/demo-of-mocha/" target="_blank">sunjingyun/demo-of-mocha</a> 分支 <a href="https://github.com/a/master" target="_blank">master</a> 上提交了代码, <a href="lesscaht.com">lesschat</a> 和 lesschat.com 和 <a href="https://lesschat.com" target="_blank">https://lesschat.com</a> 和 <a href="http://lesschat.com" target="_blank">http://lesschat.com</a> <a href="http://lesschat.com" target="_blank">http://lesschat.com</a> <a href="/drive/123456">开发</a> <a href="http://experience.lesschat.local:8100/messages/groups" target="_blank">groups</a> <a href="https://room.co/#/lesschat-1582398af7a7" target="_blank">点击开始</a> [123](<a href="http://123.com)" target="_blank">http://123.com)</a> <a href="http://lesschat.local:8100/shared/18eccb8104674f26bd8ffa75c4f31f61" target="_blank">http://lesschat.local:8100/shared/18eccb8104674f26bd8ffa75c4f31f61</a>'
+    },{
+        src:'[#task-5768f70268acfb33075b0943|任务]',
+        dest:'<a token="[#task-5768f70268acfb33075b0943|任务]" class="hand slide-trigger marked-entity" >#任务</a>'
+    },{
+        src:'[#event-581afdc86587fd8b2d186e47|日程]',
+        dest:'<a token="[#event-581afdc86587fd8b2d186e47|日程]" class="hand slide-trigger marked-entity" >#日程</a>'
+    },{
+        src:'[#file-56a87603df467f4012df12a0|网盘]',
+        dest:'<a token="[#file-56a87603df467f4012df12a0|网盘]" class="hand slide-trigger marked-entity" >#网盘</a>'
     }
 ];
 
@@ -407,6 +416,7 @@ var plaint = [
         dest: '@频道'
     }
 ];
+
 
 var all = {
     markdown: {
