@@ -51,7 +51,8 @@ var marketOptions = {
     isCodespanDefault:false,
     isCodeDefault:false,
     isDelDefault:false,
-    isHtmlDefault:false
+    isHtmlDefault:false,
+    isDef        : false
 };
 
 var getEmojiImageSrc;
